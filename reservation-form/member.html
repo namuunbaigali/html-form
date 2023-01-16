@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="nav">
+      <p>Welcome to the 24X7 Fitness Club : Courts Reservation Page!!</p>
+    </div>
+    <div class="container">
+        <fieldset>
+            <legend>Member Demographics</legend>
+            <label >Name</label>
+    <input type="text" >
+    <p>Are you a Member?</p>
+    <div class="check">
+        <input 
+        type="radio"
+        id="contactChoice1"
+        name="contact"
+        value="email"
+        checked >
+        <label for="contactChoice1">Member</label>
+   
+        <input type="radio" id="contactChoice2" name="contact" value="phone" />
+        <label for="contactChoice2">Non-member</label>
+        
+    </div>
+    <label >Email</label>
+    <input type="text" >
+        </fieldset>
+<div class="other">
+    <p>Facility</p>
+    <select>
+        <option value="Badminton">Badminton</option>
+        <option value="Voleyball">Voleyball</option>
+        <option value="Basketball">Basketball</option>
+      </select>
+
+</div>
+<div class="other">
+    <p>Select a reservation date and time</p>
+    </div>
+    <div class="other">
+        <input type="date" 
+          value="yyyy-dd-mmssssss"
+          min="1900-01-01" max="2023-01-01">
+          <input type="time" id="appt" name="appt"
+       min="00:00" max="24:00" required>
+    </div>
+<div class="other">
+    <input 
+         type="checkbox"
+         id="Hi"
+         name="contact"
+         value="email"
+         checked >
+         <label for="contactChoice1">I agree to the club's reservation policy </label>
+</div>
+
+<div class="other">
+    <input type="submit" value="Submit">
+</div>
+
+    </div>
+</body>
+</html>

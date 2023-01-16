@@ -1,0 +1,27 @@
+*{
+box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.col-6{
+    width: calc(100%/2 - 20px);
+   flex-grow: 1;
+   margin-top: 10px;
+}
+
+fieldset{
+    width: 500px;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+label{
+    display: flex;
+    justify-content: end;
+}

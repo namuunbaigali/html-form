@@ -1,0 +1,25 @@
+body{
+    width: 600px;
+    text-align: center;
+}
+.container{
+   border: 2px dashed brown ;
+   font-size: 1rem;
+    padding: 10px;
+    background-color: rgb(186, 215, 240);
+}
+
+.nav{
+    background-color: rgb(204, 50, 109);
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+p{
+    margin: 5px;
+}

@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid rgb(26, 133, 26);
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.col-6{
+   width: calc(100%/2 - 20px);
+   flex-grow: 1;
+   margin-top: 10px;
+}
+
+.input{
+    width: 200px;
+    padding: 5px;
+}
+p{
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    margin:0;
+}
+label{
+display: flex;
+justify-content: space-between;
+}
