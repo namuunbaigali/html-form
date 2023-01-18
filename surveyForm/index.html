@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1 class="head">Social media хэрэглэгчдийн судалгаа</h1>
+        <p class="head"> Судалгаанд оролцсон таньд баярлалаа</p>
+        <fieldset>
+          <legend>Ерөнхий мэдээлэл</legend>
+          <label for="fname">Нэр</label><br />
+          <input type="text" id="fname" name="fname" placeholder="Нэр" />
+          <label for="fname">И-мэйл</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="test111@gmail.com" />
+          <label for="fname">Нас</label><br />
+          <input type="text" id="fname" name="fname" placeholder="--" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Social media</legend>
+          <label for="fname"
+            >Та өдөрт хэдэн цаг Social media ашигладаг вэ?
+          </label>
+          <select>
+            <option value="1-2 цаг">1-2 цаг</option>
+            <option value="3-4 цаг">3-4 цаг</option>
+            <option value="5-6 цаг">5-6 цаг</option>
+            <option value="5-6 цаг">5-6 цаг</option>
+            <option value="8-9 цаг">8-9 цаг</option>
+          </select>
+          <p>
+            Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан авалт хийхийн
+            альныг илүүд үздэг вэ?
+          </p>
+          <input
+            type="radio"
+            id="shopping"
+            name="contact"
+            value="email"
+            checked />
+          <label for="contactChoice1">Онлайн худалдан авалт</label>
+          <input
+            type="radio"
+            id="shopping"
+            name="contact"
+            value="email"
+            checked />
+          <label for="contactChoice1">Дэлгүүр орж худалдан авалт хийх</label>
+
+          <p>Та ямар ашигладаг вэ? </p>
+          <input type="checkbox" value="Facebook" /> Facebook
+          <input type="checkbox" value=" Instagram" />Instagram
+          <input type="checkbox" value=" Twitter" />Twitter
+          <input type="checkbox" value=" Reddit" />Reddit
+          <input type="checkbox" value=" Snapchat" />Snapchat
+          <input type="checkbox" value=" Quora" />Quora
+          <input type="checkbox" value=" Youtube" />Youtube
+          <input type="checkbox" value=" Бусад" />Бусад
+        </fieldset>
+        <p>Санал хүсэлт</p>
+        <textarea
+          name=""
+          id=""
+          cols="65"
+          rows="5"
+          placeholder="Санал хүсэлтээ энд бичнэ үү"></textarea>
+        <button> Илгээх</button>
+      </div>
+    </div>
+  </body>
+</html>

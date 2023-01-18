@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+input{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 500px;
+}
+
+label{
+    display: flex;
+}
+
+.head{
+text-align: center;
+}
+
+.container{
+    width: 700px;
+    height:1280px ;
+    /* background-image: url(./survey.avif); */
+    background-size: cover;
+    filter:drop-shadow(rgb(146, 38, 56));
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 500px;
+}
