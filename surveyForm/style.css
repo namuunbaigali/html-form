@@ -38,3 +38,13 @@ text-align: center;
 .row{
     width: 500px;
 }
+
+.percent{
+    gap: 10px;
+    display: flex;
+}
+
+.col-6{
+    width: calc(100% / 2 - 10px);
+    color: aqua;
+}
